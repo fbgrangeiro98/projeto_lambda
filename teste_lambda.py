@@ -7,6 +7,7 @@ def lambda_handler(event, context):
     
     # Imprimir a data atual
     print(f"Data e hora atual: {current_date}")
+    print('minha lambda')
     
     # Retornar a data atual como resposta
     return {
